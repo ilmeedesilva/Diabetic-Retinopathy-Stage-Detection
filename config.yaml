@@ -1,0 +1,105 @@
+# ---------------------------------------------------------------------------
+# DR-Triage — single source of truth for paths, splits, and hyper-parameters.
+# Every notebook and module reads this file so experiments stay reproducible.
+# ---------------------------------------------------------------------------
+
+seed: 42                     # controls numpy / random / torch / split shuffling
+
+paths:
+  # The data root is auto-detected by src.data.resolve_data_paths() in this order:
+  #   1. $DR_DATA_ROOT environment variable (overrides everything)
+  #   2. local_root      -> for running in VS Code / on your laptop
+  #   3. kaggle_root      -> for Kaggle notebooks
+  # A root is "valid" if it contains `labels_csv`.
+  kaggle_root: /kaggle/input/aptos2019-blindness-detection
+  local_root:  data/aptos2019          # local copy (see scripts/get_data.py / README)
+  labels_csv:  train.csv               # relative to the chosen root
+
+  # Image folder layout:
+  #   flat   -> <root>/<image_subdir>/<id_code>.png            (raw Kaggle competition)
+  #   nested -> <root>/<image_subdir>/<class_dir>/<id_code>.png (resized mirrors)
+  image_subdir: colored_images         # 'train_images' for the raw competition
+  image_layout: nested                 # 'flat' for the raw competition
+  class_dirs:                          # stage int -> subfolder name (nested layout only)
+    0: No_DR
+    1: Mild
+    2: Moderate
+    3: Severe
+    4: Proliferate_DR
+  image_ext: .png
+  outputs: outputs                 # splits, figures, checkpoints, metrics
+  splits_dir: outputs/splits
+  figures_dir: outputs/figures
+
+# 5-point international clinical DR severity scale (the label column `diagnosis`).
+classes:
+  0: No DR
+  1: Mild
+  2: Moderate
+  3: Severe
+  4: Proliferative DR
+
+# "Referable DR" = the clinically actionable decision: stages 2-4 should be
+# seen by an ophthalmologist. Used by the binary referable head.
+referable_threshold: 2
+
+split:
+  test_size: 0.15            # held-out, touched only for the final report
+  val_size: 0.15            # of the whole dataset (so train = 0.70)
+  stratify_on: diagnosis
+  n_folds: 3                # stratified K-fold CV on the train portion (M5)
+
+image:
+  size_stage1: 224          # progressive resizing: phase-1 training size
+  size_stage2: 380          # phase-2 fine-tune / evaluation size
+  # ImageNet statistics (backbone was pre-trained with these).
+  mean: [0.485, 0.456, 0.406]
+  std:  [0.229, 0.224, 0.225]
+
+# M2 — fundus preprocessing pipeline (src/preprocess.py). Every step is toggleable
+# so the notebook can show an ablation. No parameter is fitted on data => no leakage.
+preprocess:
+  # NOTE: the resized mirror we use is natively 224x224. work_size 384 keeps the
+  # local kernels scale-consistent without pointlessly upscaling to 512. A
+  # full-resolution source would let this go higher (noted as a limitation).
+  work_size: 384                     # fixed working resolution before local kernels
+  crop: true                         # crop the black border around the retina
+  circle_mask: true                  # keep only the circular field of view
+  circle_radius_scale: 0.97          # inset slightly to drop the bright rim
+  ben_graham: true                   # subtract local-average blur (illumination/colour normalisation)
+  ben_params: {sigma_frac: 0.1, alpha: 4.0, beta: -4.0, gamma: 128.0}
+  clahe: true                        # CLAHE on L* of LAB (local contrast, colour kept)
+  clahe_params: {clip: 2.0, grid: 8}
+
+# M3 — augmentation + class-imbalance handling (src/augment.py).
+augment:
+  strength: 1.0               # scales every stochastic augmentation probability
+  balancing: oversample       # none | class_weights | weighted_sampler | oversample
+  oversample_target: median   # median | max | <int>  (used when balancing: oversample)
+  oversample_cap_ratio: 4.0   # never duplicate a class beyond cap_ratio x smallest class
+  class_weight_beta: 0.9999   # effective-number reweighting; set null for plain inverse-freq
+
+model:
+  backbone: tf_efficientnetv2_s.in21k_ft_in1k   # timm identifier
+  pretrained: true
+  dropout: 0.3
+  attention: cbam           # lightweight channel+spatial attention on backbone features
+  heads: [stage, ordinal, referable]
+
+train:
+  batch_size: 16
+  phase1_epochs: 5          # frozen backbone, train heads only
+  phase2_epochs: 20         # unfreeze top blocks, discriminative LR + cosine restarts
+  lr_head: 1.0e-3
+  lr_backbone: 1.0e-5
+  weight_decay: 1.0e-4
+  label_smoothing: 0.05
+  mixup_alpha: 0.2
+  cutmix_alpha: 1.0
+  focal_gamma: 2.0
+  loss_weights: {stage: 1.0, ordinal: 0.5, referable: 0.5, qwk: 0.5}
+  mix_prob: 0.5             # per-batch probability of applying MixUp or CutMix (train only)
+  amp: true                 # mixed precision (CUDA only; MPS/CPU always run fp32)
+  tta: true                 # test-time augmentation at inference
+  early_stopping_patience: 6
+  monitor: val_qwk          # checkpoint on quadratic weighted kappa, not accuracy

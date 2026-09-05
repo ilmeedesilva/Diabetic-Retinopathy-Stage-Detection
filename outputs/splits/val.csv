@@ -1,0 +1,551 @@
+id_code,stage,stage_name,referable,ordinal,path
+d6e26fe51dce,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/d6e26fe51dce.png
+39b5b05d6cd9,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/39b5b05d6cd9.png
+d1ca85af57c9,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d1ca85af57c9.png
+a9c7b83caf81,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/a9c7b83caf81.png
+367c7049929c,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/367c7049929c.png
+3b5dffe159b6,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/3b5dffe159b6.png
+683023cda6a5,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/683023cda6a5.png
+042470a92154,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/042470a92154.png
+31b5d6fb0256,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/31b5d6fb0256.png
+57a710de68a4,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/57a710de68a4.png
+d81b6ed83bc2,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/d81b6ed83bc2.png
+378963f9df22,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/378963f9df22.png
+4cf4d528c08e,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4cf4d528c08e.png
+2cbfc6182ba2,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/2cbfc6182ba2.png
+4704dbb59536,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4704dbb59536.png
+3044022c6969,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/3044022c6969.png
+f18abfa690ab,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/f18abfa690ab.png
+486e852a3b4d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/486e852a3b4d.png
+2d9d97a6e713,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/2d9d97a6e713.png
+fa748b57262b,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/fa748b57262b.png
+5ba156a35ff2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/5ba156a35ff2.png
+b0cc9f8d06e4,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/b0cc9f8d06e4.png
+d5ad3362424c,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d5ad3362424c.png
+8ef2eb8c51c4,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/8ef2eb8c51c4.png
+38e111cac46f,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/38e111cac46f.png
+5bf3357a2823,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/5bf3357a2823.png
+c280730cc211,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/c280730cc211.png
+daeaa5d8cf70,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/daeaa5d8cf70.png
+61c667663f2f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/61c667663f2f.png
+cd941e5bc659,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/cd941e5bc659.png
+ee059945b08a,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/ee059945b08a.png
+b835b6e31a59,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/b835b6e31a59.png
+5889a0c75cac,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/5889a0c75cac.png
+4b5ffea77373,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/4b5ffea77373.png
+799cb4c816ae,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/799cb4c816ae.png
+17d7d6b092f4,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/17d7d6b092f4.png
+e9ff9352ccb3,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/e9ff9352ccb3.png
+96c699221180,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/96c699221180.png
+d807c53c1399,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d807c53c1399.png
+8b58f9a338e8,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/8b58f9a338e8.png
+b8dab47a260e,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/b8dab47a260e.png
+6d3d1fe6c32a,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/6d3d1fe6c32a.png
+178412895d5e,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/178412895d5e.png
+ef247f28004f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ef247f28004f.png
+103f97a2ab15,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/103f97a2ab15.png
+da949aa67a4f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/da949aa67a4f.png
+a11bf2edd470,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/a11bf2edd470.png
+66a0bf258013,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/66a0bf258013.png
+cff262ed8f4c,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/cff262ed8f4c.png
+d97911a32918,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d97911a32918.png
+e387311a840e,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/e387311a840e.png
+fecf4c5ae84b,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/fecf4c5ae84b.png
+fb88d23fc5fe,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/fb88d23fc5fe.png
+711d1480d2e3,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/711d1480d2e3.png
+f3a268d2726d,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/f3a268d2726d.png
+e96bd80a8a53,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/e96bd80a8a53.png
+72d98188648f,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/72d98188648f.png
+4958bfcc9f38,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4958bfcc9f38.png
+ccd6dcb2f568,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ccd6dcb2f568.png
+0773a1c326ad,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/0773a1c326ad.png
+f58d37d48e42,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/f58d37d48e42.png
+2bbd1f99ecc3,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/2bbd1f99ecc3.png
+df4913ca3712,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/df4913ca3712.png
+94a67ec0714f,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/94a67ec0714f.png
+2dd28ac497d2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/2dd28ac497d2.png
+fb88783de055,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/fb88783de055.png
+03676c71ed1b,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/03676c71ed1b.png
+a53d6d2472a6,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a53d6d2472a6.png
+eabc7c716255,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/eabc7c716255.png
+57f933d3d7c7,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/57f933d3d7c7.png
+ca30a97e9d13,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/ca30a97e9d13.png
+53c874dbc594,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/53c874dbc594.png
+fe674c2f73f5,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/fe674c2f73f5.png
+f9156aeffc5e,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/f9156aeffc5e.png
+a673193cd5a9,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a673193cd5a9.png
+91b6ebaa3678,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/91b6ebaa3678.png
+53704c80f0d8,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/53704c80f0d8.png
+28751f290ba3,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/28751f290ba3.png
+e9ab8413e771,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/e9ab8413e771.png
+25a0a1e41afd,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/25a0a1e41afd.png
+d83d0695e215,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/d83d0695e215.png
+d2ffe9287dc7,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/d2ffe9287dc7.png
+22449af52060,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/22449af52060.png
+ab88081e5654,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ab88081e5654.png
+1ec95179cdfe,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/1ec95179cdfe.png
+8f1e7433a95d,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/8f1e7433a95d.png
+eadc57064154,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/eadc57064154.png
+b5b913358b32,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/b5b913358b32.png
+788ddb0b70b7,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/788ddb0b70b7.png
+b191ba0a2b12,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/b191ba0a2b12.png
+1cb6961d141c,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/1cb6961d141c.png
+d1afdb8cf70d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d1afdb8cf70d.png
+3f6c627e2ff2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/3f6c627e2ff2.png
+3b58b02c89ed,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/3b58b02c89ed.png
+e16fc934069f,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/e16fc934069f.png
+8cb6b5b2f19c,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/8cb6b5b2f19c.png
+0c38940e1f80,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/0c38940e1f80.png
+55968f0e63c4,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/55968f0e63c4.png
+8bad12d70368,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/8bad12d70368.png
+976082127e2a,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/976082127e2a.png
+969f92a390db,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/969f92a390db.png
+fcc55ae641ae,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/fcc55ae641ae.png
+348598d01e18,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/348598d01e18.png
+0fd16b64697e,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/0fd16b64697e.png
+4c17e85686f0,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4c17e85686f0.png
+810d3779abd9,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/810d3779abd9.png
+b085caa513a8,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/b085caa513a8.png
+9f5a8665cf2e,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/9f5a8665cf2e.png
+2f9b66784109,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/2f9b66784109.png
+6d7d26025122,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/6d7d26025122.png
+d7bc62d60e8c,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d7bc62d60e8c.png
+9b70f84400af,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/9b70f84400af.png
+d4f32b9c07df,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/d4f32b9c07df.png
+c94f37085d0f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/c94f37085d0f.png
+b7f0bc7d399e,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/b7f0bc7d399e.png
+c568e5245ea5,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/c568e5245ea5.png
+99240ee00485,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/99240ee00485.png
+98f7136d2e7a,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/98f7136d2e7a.png
+59bd19c1c5bb,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/59bd19c1c5bb.png
+1e4650743fa2,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/1e4650743fa2.png
+f850cb51fdba,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/f850cb51fdba.png
+b6a0e348a01e,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/b6a0e348a01e.png
+6e3526053de0,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/6e3526053de0.png
+b99794a0beed,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/b99794a0beed.png
+937bc1b924b1,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/937bc1b924b1.png
+c1799a6f5c65,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/c1799a6f5c65.png
+bd500a73beae,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/bd500a73beae.png
+6363b360aefb,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/6363b360aefb.png
+fce73678f650,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/fce73678f650.png
+2376e5415458,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/2376e5415458.png
+3254e48c8aa0,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/3254e48c8aa0.png
+65f69234c8a7,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/65f69234c8a7.png
+331b87d1b9d1,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/331b87d1b9d1.png
+90b8bf342032,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/90b8bf342032.png
+ae94ce412de9,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ae94ce412de9.png
+c3aa424eff9a,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/c3aa424eff9a.png
+beb00fa6e7c9,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/beb00fa6e7c9.png
+30cab14951ac,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/30cab14951ac.png
+cca626a0e19a,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/cca626a0e19a.png
+9a1029536d78,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/9a1029536d78.png
+4fecf87184e6,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/4fecf87184e6.png
+b8f1b30877db,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/b8f1b30877db.png
+4205e9deb058,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4205e9deb058.png
+441848e0f308,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/441848e0f308.png
+7ce671f952be,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/7ce671f952be.png
+f00ce9b9d6f4,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/f00ce9b9d6f4.png
+164cd5a3a6cd,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/164cd5a3a6cd.png
+15f440753916,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/15f440753916.png
+5b1c4cefeb24,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/5b1c4cefeb24.png
+6294b378d09f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/6294b378d09f.png
+c4e8b1ec8893,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/c4e8b1ec8893.png
+62ab144d5cee,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/62ab144d5cee.png
+e087bd4b88f2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/e087bd4b88f2.png
+5ead17e894ae,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/5ead17e894ae.png
+c3acf47700ea,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/c3acf47700ea.png
+6630f8675a97,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/6630f8675a97.png
+f85fd4fac887,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/f85fd4fac887.png
+6194e0fff071,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/6194e0fff071.png
+e25ccfe38e44,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/e25ccfe38e44.png
+f23902998c21,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/f23902998c21.png
+7a9f45fdf29b,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/7a9f45fdf29b.png
+5de4615a5161,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/5de4615a5161.png
+9a159d4674cd,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/9a159d4674cd.png
+d0b132d2c7ec,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/d0b132d2c7ec.png
+025a169a0bb0,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/025a169a0bb0.png
+be21d8b60e2a,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/be21d8b60e2a.png
+e52ed5c29c5e,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/e52ed5c29c5e.png
+857002ed4e49,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/857002ed4e49.png
+0ceb222f6629,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/0ceb222f6629.png
+97a235367f9d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/97a235367f9d.png
+191cf5668f33,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/191cf5668f33.png
+da6bbb76d562,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/da6bbb76d562.png
+f7735b6d47f7,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/f7735b6d47f7.png
+b50b30aa6e6c,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/b50b30aa6e6c.png
+351e842842a2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/351e842842a2.png
+09f1111a388a,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/09f1111a388a.png
+8329e80c10ac,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/8329e80c10ac.png
+6e861bc3bd7b,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/6e861bc3bd7b.png
+d3dfd0a2dee6,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d3dfd0a2dee6.png
+9a78c6a7b1c2,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/9a78c6a7b1c2.png
+e7a7187066ad,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/e7a7187066ad.png
+757572337fd0,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/757572337fd0.png
+61e301bd3c25,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/61e301bd3c25.png
+81bc03e2ff2b,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/81bc03e2ff2b.png
+eb1ad14dd281,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/eb1ad14dd281.png
+e067b06fd655,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/e067b06fd655.png
+27933cdbe0cc,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/27933cdbe0cc.png
+260a455692b5,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/260a455692b5.png
+91cbe1c775ef,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/91cbe1c775ef.png
+6d6be4cfc73f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/6d6be4cfc73f.png
+1c9c583c10bf,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/1c9c583c10bf.png
+a8c950a99107,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/a8c950a99107.png
+4f6abc40c72d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4f6abc40c72d.png
+b6bfe9db60e5,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/b6bfe9db60e5.png
+73a07e2ea23e,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/73a07e2ea23e.png
+be68322c7223,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/be68322c7223.png
+bdc6c60e9133,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/bdc6c60e9133.png
+66bfec8d6bcd,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/66bfec8d6bcd.png
+930fee99213a,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/930fee99213a.png
+3402124408ea,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/3402124408ea.png
+a32886cb31ab,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/a32886cb31ab.png
+1116271db4ea,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/1116271db4ea.png
+61bbe8db6f3a,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/61bbe8db6f3a.png
+79059d0592c4,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/79059d0592c4.png
+4528fbbd43a3,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4528fbbd43a3.png
+78b3f819dcc5,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/78b3f819dcc5.png
+ff77e8e5b5f3,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/ff77e8e5b5f3.png
+f56ff0440ed1,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/f56ff0440ed1.png
+1b862fb6f65d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/1b862fb6f65d.png
+85fce24084da,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/85fce24084da.png
+d0d59ed675b5,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/d0d59ed675b5.png
+fa9bece586fc,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/fa9bece586fc.png
+59f3f70abddd,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/59f3f70abddd.png
+4e54ccfd49b2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4e54ccfd49b2.png
+a125377fb985,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/a125377fb985.png
+8e63fc4ab532,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/8e63fc4ab532.png
+393fa5a023a5,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/393fa5a023a5.png
+15f8d769935c,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/15f8d769935c.png
+46c1548d730e,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/46c1548d730e.png
+218c822a3dd9,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/218c822a3dd9.png
+d66ccb75ada1,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/d66ccb75ada1.png
+5671eb95512b,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/5671eb95512b.png
+ace287a5c991,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ace287a5c991.png
+3b185ac445d0,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/3b185ac445d0.png
+4a5a6efc0bef,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4a5a6efc0bef.png
+7a06ea127e02,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/7a06ea127e02.png
+8e2a3978c244,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/8e2a3978c244.png
+a763661f98a5,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/a763661f98a5.png
+c027e5482e8c,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/c027e5482e8c.png
+ae8472f8d310,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/ae8472f8d310.png
+3abac0961bfd,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/3abac0961bfd.png
+c102db7634d8,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/c102db7634d8.png
+c0e15e8e2b46,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/c0e15e8e2b46.png
+910bfd38e2f5,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/910bfd38e2f5.png
+a5a2a7003d60,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/a5a2a7003d60.png
+28503940d10b,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/28503940d10b.png
+5cab3ef4b31c,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/5cab3ef4b31c.png
+10fca1abf338,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/10fca1abf338.png
+70f5caf5f305,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/70f5caf5f305.png
+2628305cbb29,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/2628305cbb29.png
+f549294e12e1,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/f549294e12e1.png
+cf0575534cec,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/cf0575534cec.png
+e7291472109b,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/e7291472109b.png
+d81338217fc5,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/d81338217fc5.png
+8906c9ed54a2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/8906c9ed54a2.png
+80d24897669f,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/80d24897669f.png
+bb85097857fa,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/bb85097857fa.png
+f5650eb52640,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/f5650eb52640.png
+e6552b7432b3,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/e6552b7432b3.png
+8688f3d0fcaf,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/8688f3d0fcaf.png
+cb0cc98d7e35,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/cb0cc98d7e35.png
+012a242ac6ff,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/012a242ac6ff.png
+f1a761c68559,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/f1a761c68559.png
+f5733f77273d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/f5733f77273d.png
+b87f9c59748b,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/b87f9c59748b.png
+237aa50edc34,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/237aa50edc34.png
+91a88d3b0358,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/91a88d3b0358.png
+3ddb86eb530e,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/3ddb86eb530e.png
+d5b4705ac2ee,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/d5b4705ac2ee.png
+1a03a7970337,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/1a03a7970337.png
+278aa860dffd,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/278aa860dffd.png
+f64214bed40e,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/f64214bed40e.png
+0ac436400db4,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/0ac436400db4.png
+ef7a4ed8d5d1,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/ef7a4ed8d5d1.png
+14515b8f19b6,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/14515b8f19b6.png
+eb1d37b71fd1,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/eb1d37b71fd1.png
+42a67337fa8e,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/42a67337fa8e.png
+d4be0403e6ab,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/d4be0403e6ab.png
+1438288bb2e1,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/1438288bb2e1.png
+90960ddf4d14,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/90960ddf4d14.png
+252305189b3a,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/252305189b3a.png
+e4f12411fd85,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/e4f12411fd85.png
+07f5d7baf907,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/07f5d7baf907.png
+318eb706a134,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/318eb706a134.png
+8a482c024fc2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/8a482c024fc2.png
+0415fc68b176,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/0415fc68b176.png
+ff4832d55461,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ff4832d55461.png
+7b87b0015282,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/7b87b0015282.png
+39aa3cd93c50,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/39aa3cd93c50.png
+a95858e052d6,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/a95858e052d6.png
+0cd31078cd08,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/0cd31078cd08.png
+5dc23e440de3,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/5dc23e440de3.png
+1e1fb019710d,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/1e1fb019710d.png
+ae58ccb5905e,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ae58ccb5905e.png
+0f6e645466a2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/0f6e645466a2.png
+6f4719c6bb4b,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/6f4719c6bb4b.png
+7270367410a1,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/7270367410a1.png
+57a5e4274275,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/57a5e4274275.png
+55fd453001cc,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/55fd453001cc.png
+36ec36c301c1,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/36ec36c301c1.png
+46acc506fa61,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/46acc506fa61.png
+6666c4f18396,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/6666c4f18396.png
+1844a039b4ea,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/1844a039b4ea.png
+3dbc90c7ee7d,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/3dbc90c7ee7d.png
+1b8701231c8f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/1b8701231c8f.png
+4a693dd3921a,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/4a693dd3921a.png
+5b47043942f4,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/5b47043942f4.png
+86722fcd802c,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/86722fcd802c.png
+26cd40b57ad1,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/26cd40b57ad1.png
+cfb17a7cc8d4,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/cfb17a7cc8d4.png
+a0b7ad98df57,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a0b7ad98df57.png
+5257cb536da2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/5257cb536da2.png
+4a3da369b227,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/4a3da369b227.png
+4d1e7def7624,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4d1e7def7624.png
+357f02a779d7,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/357f02a779d7.png
+cfed7c1172ec,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/cfed7c1172ec.png
+43ddd0ab0cc4,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/43ddd0ab0cc4.png
+96b5474ae604,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/96b5474ae604.png
+98277aeb96a7,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/98277aeb96a7.png
+e59c5f345bb0,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/e59c5f345bb0.png
+d1b279cc02ae,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d1b279cc02ae.png
+b2b79b37d314,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/b2b79b37d314.png
+115e42dd6a81,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/115e42dd6a81.png
+e5de79795c1d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/e5de79795c1d.png
+6987804eb464,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/6987804eb464.png
+d911dd40c63b,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d911dd40c63b.png
+099021fac3c9,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/099021fac3c9.png
+c9ea9d5eab65,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/c9ea9d5eab65.png
+974c7d7b9c64,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/974c7d7b9c64.png
+1c4d87baaffc,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/1c4d87baaffc.png
+f0c0f7b5e820,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/f0c0f7b5e820.png
+bffca6eeb2bf,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/bffca6eeb2bf.png
+d85ea1220a03,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/d85ea1220a03.png
+295fdc964f6e,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/295fdc964f6e.png
+0243404e8a00,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/0243404e8a00.png
+07a0be6b347f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/07a0be6b347f.png
+d6130f2ec903,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d6130f2ec903.png
+35d6c4c50072,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/35d6c4c50072.png
+996f9bba4ef0,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/996f9bba4ef0.png
+e79e10907295,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/e79e10907295.png
+501c319f7a9f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/501c319f7a9f.png
+0daddc45d832,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/0daddc45d832.png
+d035c2bd9104,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/d035c2bd9104.png
+682312e82ee3,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/682312e82ee3.png
+0efc93ec838b,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/0efc93ec838b.png
+83d6e40c869f,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/83d6e40c869f.png
+18d8fdb140b7,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/18d8fdb140b7.png
+c98f623d08d1,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/c98f623d08d1.png
+7e6e90a93aa5,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/7e6e90a93aa5.png
+9f37c98b8187,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/9f37c98b8187.png
+7f2123bc89a3,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/7f2123bc89a3.png
+5a03fe3ed15c,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/5a03fe3ed15c.png
+eb175669d789,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/eb175669d789.png
+248dec89b3a2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/248dec89b3a2.png
+2c9dfc270f1b,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/2c9dfc270f1b.png
+29a13e666266,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/29a13e666266.png
+c87493ed320c,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/c87493ed320c.png
+328d141ed3aa,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/328d141ed3aa.png
+b8e20c076b03,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/b8e20c076b03.png
+24f271c87e73,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/24f271c87e73.png
+b4e15102cd7a,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/b4e15102cd7a.png
+873dcc0b468f,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/873dcc0b468f.png
+a61723fc38c2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a61723fc38c2.png
+9859e2a6cc24,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/9859e2a6cc24.png
+a2163f0c2af5,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a2163f0c2af5.png
+1d3e9b939732,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/1d3e9b939732.png
+1a0dbc6c0cda,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/1a0dbc6c0cda.png
+465c618f7b23,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/465c618f7b23.png
+fcc6aa6755e6,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/fcc6aa6755e6.png
+55092c0071eb,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/55092c0071eb.png
+85f99e7e4052,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/85f99e7e4052.png
+aca88f566228,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/aca88f566228.png
+810ed108f5b7,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/810ed108f5b7.png
+f2ee81781411,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/f2ee81781411.png
+eedae6b28f96,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/eedae6b28f96.png
+c56293f53191,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/c56293f53191.png
+a0a0cd8af5a6,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/a0a0cd8af5a6.png
+345b1f0abbba,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/345b1f0abbba.png
+47536db39f00,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/47536db39f00.png
+5a444c32cd9a,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/5a444c32cd9a.png
+3a4cfea0a766,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/3a4cfea0a766.png
+d2fb715b0c41,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d2fb715b0c41.png
+d144144a2f3f,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/d144144a2f3f.png
+ff03f74667df,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ff03f74667df.png
+ba0107fb1bfd,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ba0107fb1bfd.png
+fd48cf452e9d,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/fd48cf452e9d.png
+5327f88a1919,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/5327f88a1919.png
+cc12453ea915,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/cc12453ea915.png
+a8dea22ef903,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a8dea22ef903.png
+03b373718013,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/03b373718013.png
+a7b7dc8788b9,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/a7b7dc8788b9.png
+4134b290f5f3,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4134b290f5f3.png
+9122b31414d3,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/9122b31414d3.png
+eda1d75cbcf0,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/eda1d75cbcf0.png
+657859f893d9,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/657859f893d9.png
+37c4dfe03aba,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/37c4dfe03aba.png
+ee77763a6afb,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ee77763a6afb.png
+fd079d2e93a2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/fd079d2e93a2.png
+1002f3fe38f0,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/1002f3fe38f0.png
+6e92b1c5ac8e,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/6e92b1c5ac8e.png
+c5431b81cbc9,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/c5431b81cbc9.png
+a07d571bf7ba,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a07d571bf7ba.png
+49c5e7f6b8d2,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/49c5e7f6b8d2.png
+7b211d8bd249,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/7b211d8bd249.png
+7347bd23ba80,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/7347bd23ba80.png
+50d8a8fb7737,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/50d8a8fb7737.png
+90c982cc2d96,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/90c982cc2d96.png
+e50b0174690d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/e50b0174690d.png
+342edf9b889d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/342edf9b889d.png
+7347f5133a6a,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/7347f5133a6a.png
+847b04287c9c,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/847b04287c9c.png
+d6dbb0820ea5,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d6dbb0820ea5.png
+bac1744955c2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/bac1744955c2.png
+ea4dcb055139,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/ea4dcb055139.png
+932181b93b2f,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/932181b93b2f.png
+6fe4751a3b42,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/6fe4751a3b42.png
+f02057c41256,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/f02057c41256.png
+82deb07a6618,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/82deb07a6618.png
+a9bc2f892cb3,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a9bc2f892cb3.png
+f6f3ea0d2693,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/f6f3ea0d2693.png
+d6803e467592,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d6803e467592.png
+ae61e19fb766,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ae61e19fb766.png
+6bb30ec3231a,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/6bb30ec3231a.png
+5b72ff04333d,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/5b72ff04333d.png
+8a7765e785fb,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/8a7765e785fb.png
+80a02014b418,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/80a02014b418.png
+a80dab8eddf4,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/a80dab8eddf4.png
+4b1001050f1d,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/4b1001050f1d.png
+934104859e68,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/934104859e68.png
+2c1d5be654dd,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/2c1d5be654dd.png
+57db4781e7ec,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/57db4781e7ec.png
+5ac7a414560e,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/5ac7a414560e.png
+6e092b306fe1,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/6e092b306fe1.png
+89d9c071a56f,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/89d9c071a56f.png
+86e7f98f73f1,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/86e7f98f73f1.png
+ee74c3b177e0,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/ee74c3b177e0.png
+21037f5c7790,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/21037f5c7790.png
+4661006f3ba6,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/4661006f3ba6.png
+6d454444f17c,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/6d454444f17c.png
+a0adbe677508,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a0adbe677508.png
+54334705a34d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/54334705a34d.png
+18b7e34eab8f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/18b7e34eab8f.png
+e322acd46152,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/e322acd46152.png
+f71333204618,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/f71333204618.png
+58af2c054ced,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/58af2c054ced.png
+b7e0f95353f2,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/b7e0f95353f2.png
+887c26fc0e1f,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/887c26fc0e1f.png
+7131bf4c9e6f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/7131bf4c9e6f.png
+8ee50c26fc13,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/8ee50c26fc13.png
+224c14366e11,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/224c14366e11.png
+ab78a66dee6a,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ab78a66dee6a.png
+ec57cc20d776,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ec57cc20d776.png
+e7a372a1c3a4,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/e7a372a1c3a4.png
+42af7282349b,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/42af7282349b.png
+166068a24416,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/166068a24416.png
+ad1f7445b1a8,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/ad1f7445b1a8.png
+54cab3596214,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/54cab3596214.png
+756b0d6488bb,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/756b0d6488bb.png
+bf7221a016b5,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/bf7221a016b5.png
+842d697884f6,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/842d697884f6.png
+750e0168399d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/750e0168399d.png
+1ca62b3e4fd3,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/1ca62b3e4fd3.png
+1f0e223b8055,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/1f0e223b8055.png
+44ecf3f4efa5,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/44ecf3f4efa5.png
+e756495c11cb,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/e756495c11cb.png
+b2ffa3e18559,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/b2ffa3e18559.png
+3a6e9730b298,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/3a6e9730b298.png
+1e8a1fdee5b9,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/1e8a1fdee5b9.png
+594f69b503ad,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/594f69b503ad.png
+8f10e41a2f02,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/8f10e41a2f02.png
+4a05f81b3aba,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4a05f81b3aba.png
+4e0656629d02,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/4e0656629d02.png
+913b1890ed1e,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/913b1890ed1e.png
+9bd008aab548,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/9bd008aab548.png
+86fbac86ed3e,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/86fbac86ed3e.png
+aa31bc6b8f4d,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/aa31bc6b8f4d.png
+cd1c98ec48b1,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/cd1c98ec48b1.png
+152db3de8120,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/152db3de8120.png
+8b76c3c5cb3e,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/8b76c3c5cb3e.png
+02cd34a85b24,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/02cd34a85b24.png
+29b52f64d2db,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/29b52f64d2db.png
+00f6c1be5a33,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/00f6c1be5a33.png
+454792eb6e05,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/454792eb6e05.png
+ce207b69ff37,3,Severe,1,1 1 1 0,data/aptos2019/colored_images/Severe/ce207b69ff37.png
+780be525036d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/780be525036d.png
+5b5b80a3edee,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/5b5b80a3edee.png
+a3132c8828e4,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a3132c8828e4.png
+737ef6226677,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/737ef6226677.png
+bda8c973b09d,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/bda8c973b09d.png
+58f07741ee3b,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/58f07741ee3b.png
+4c389d033cb0,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4c389d033cb0.png
+7bc2e0fa3f72,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/7bc2e0fa3f72.png
+1caba2fb38f6,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/1caba2fb38f6.png
+767d777ee889,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/767d777ee889.png
+4cae247d9909,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/4cae247d9909.png
+511fd66b2df8,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/511fd66b2df8.png
+ea9e0fb6fb0b,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/ea9e0fb6fb0b.png
+780f9daaa24b,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/780f9daaa24b.png
+53327edb9e4d,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/53327edb9e4d.png
+59fee5bc3479,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/59fee5bc3479.png
+da2bdf4236ac,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/da2bdf4236ac.png
+2776d70724d3,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/2776d70724d3.png
+cbf0394039f8,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/cbf0394039f8.png
+692e946b1f85,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/692e946b1f85.png
+1c578b72d7b3,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/1c578b72d7b3.png
+5b301a6d1ac7,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/5b301a6d1ac7.png
+613bacb35c05,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/613bacb35c05.png
+63363410389a,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/63363410389a.png
+1120f6d08d95,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/1120f6d08d95.png
+bacfa2b8e706,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/bacfa2b8e706.png
+d7a01fca9838,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/d7a01fca9838.png
+ba25f947f4ec,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/ba25f947f4ec.png
+bda7ff3b1562,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/bda7ff3b1562.png
+aa9b8f05f4bf,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/aa9b8f05f4bf.png
+94ef1d14597f,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/94ef1d14597f.png
+5486da4273d7,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/5486da4273d7.png
+ff52392372d3,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/ff52392372d3.png
+09934421c79e,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/09934421c79e.png
+5c6194562ed2,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/5c6194562ed2.png
+8d13c46e7d75,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/8d13c46e7d75.png
+a963ac561580,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a963ac561580.png
+0c2e2369dfff,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/0c2e2369dfff.png
+a86c6283fd78,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/a86c6283fd78.png
+af831c158744,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/af831c158744.png
+7b20210d9120,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/7b20210d9120.png
+9df31421cdd2,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/9df31421cdd2.png
+aad0c0ee9268,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/aad0c0ee9268.png
+4403538fb50f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/4403538fb50f.png
+2967e578939f,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/2967e578939f.png
+e33766353db2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/e33766353db2.png
+314862758acf,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/314862758acf.png
+87774aafe068,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/87774aafe068.png
+42a850acd2ac,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/42a850acd2ac.png
+aaaadb174012,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/aaaadb174012.png
+b4b04d81acbb,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/b4b04d81acbb.png
+f4ea2a2cfbb9,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/f4ea2a2cfbb9.png
+8fc09fecd22f,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/8fc09fecd22f.png
+fa9f1bc03f21,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/fa9f1bc03f21.png
+493d99f030e2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/493d99f030e2.png
+3fe282197c1c,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/3fe282197c1c.png
+39fd8ef3a45c,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/39fd8ef3a45c.png
+a646c084928c,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a646c084928c.png
+6af071b0ac6e,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/6af071b0ac6e.png
+9a7bd084395e,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/9a7bd084395e.png
+ffc04fed30e6,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ffc04fed30e6.png
+e4e343eaae2a,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/e4e343eaae2a.png
+f2d2a0c92034,4,Proliferative DR,1,1 1 1 1,data/aptos2019/colored_images/Proliferate_DR/f2d2a0c92034.png
+405085b53d7b,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/405085b53d7b.png
+ce8d2efd9d4f,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ce8d2efd9d4f.png
+c58971bcebb2,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/c58971bcebb2.png
+8241e43408a8,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/8241e43408a8.png
+3de8ad4151e1,1,Mild,0,1 0 0 0,data/aptos2019/colored_images/Mild/3de8ad4151e1.png
+9be71d6d7e59,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/9be71d6d7e59.png
+65f5d2a6eb7e,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/65f5d2a6eb7e.png
+fe37f4492920,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/fe37f4492920.png
+4289af3afbd2,2,Moderate,1,1 1 0 0,data/aptos2019/colored_images/Moderate/4289af3afbd2.png
+0a4e1a29ffff,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/0a4e1a29ffff.png
+a9e3d186cd1b,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/a9e3d186cd1b.png
+f819c65b803c,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/f819c65b803c.png
+ebd96d853918,0,No DR,0,0 0 0 0,data/aptos2019/colored_images/No_DR/ebd96d853918.png

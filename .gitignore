@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Data — never commit the Kaggle dataset
+data/
+*.png
+*.jpg
+*.jpeg
+# keep report figures
+!outputs/figures/*.png
+
+# Model artefacts
+*.pt
+*.pth
+*.ckpt
+outputs/checkpoints/
+
+# Keep split CSVs and metrics (small, reproducibility record)
+!outputs/splits/*.csv
+!outputs/metrics/*.json
