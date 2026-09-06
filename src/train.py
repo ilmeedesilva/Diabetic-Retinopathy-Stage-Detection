@@ -257,11 +257,14 @@ def cross_validate(train_df, cfg: dict[str, Any], device: str,
                    n_folds: int | None = None, phase1_epochs: int | None = None,
                    phase2_epochs: int | None = None, size_stage1: int | None = None,
                    size_stage2: int | None = None, subset: int | None = None,
+                   summary_name: str = "cv_summary.json",
                    log: Callable[[str], None] = print) -> dict[str, Any]:
     """Stratified K-fold CV. Every override is a *local copy* of cfg — config.yaml
     on disk is never touched, so the same call runs a fast smoke test (small
     `subset`, `n_folds=2`, `phase*_epochs=1`, small sizes) or the full report run
-    (defaults from config.yaml) without editing anything."""
+    (defaults from config.yaml) without editing anything. Pass a distinct
+    `summary_name` for a smoke test so it doesn't overwrite the real run's
+    `cv_summary.json`."""
     cfg = copy.deepcopy(cfg)
     if n_folds is not None:
         cfg["split"]["n_folds"] = n_folds
@@ -301,10 +304,10 @@ def cross_validate(train_df, cfg: dict[str, Any], device: str,
     out = Path(cfg["paths"]["outputs"]) / "metrics"
     out.mkdir(parents=True, exist_ok=True)
     try:
-        with open(out / "cv_summary.json", "w") as f:
+        with open(out / summary_name, "w") as f:
             json.dump(summary, f, indent=2)
     except OSError as e:
-        log(f"WARNING: could not write {out / 'cv_summary.json'} ({e}); "
+        log(f"WARNING: could not write {out / summary_name} ({e}); "
             f"summary is still returned in memory.")
     log(f"\nCV done: val QWK = {summary['val_qwk_mean']:.3f} +/- {summary['val_qwk_std']:.3f}")
     return summary

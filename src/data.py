@@ -98,12 +98,31 @@ def _ordinal_target(stage: int, num_classes: int = 5) -> list[int]:
 def resolve_data_paths(cfg: dict[str, Any]) -> dict[str, str]:
     """Pick the dataset root that actually exists on this machine.
 
-    Order: $DR_DATA_ROOT  ->  paths.local_root  ->  paths.kaggle_root.
-    Lets the same config.yaml work in VS Code and on Kaggle unchanged.
+    Order: $DR_DATA_ROOT  ->  paths.local_root  ->  paths.kaggle_root  ->
+    *any* attached Kaggle dataset that contains labels_csv. That last step means
+    you do NOT need to edit config.yaml on Kaggle — just attach the same dataset
+    (Add Input) and this finds it automatically, exactly like the notebooks'
+    setup cell auto-finds the uploaded src/ code.
     """
+    import glob
+
     p = cfg["paths"]
     csv_name = p.get("labels_csv", "train.csv")
     img_name = p.get("image_subdir", "train_images")
+
+    def is_valid_root(root: str) -> bool:
+        """train.csv existing is not enough — e.g. the raw APTOS competition also
+        has a train.csv, but no `colored_images/` folder. Require the expected
+        image layout to actually be present too."""
+        if not root or not (Path(root) / csv_name).is_file():
+            return False
+        img_dir = Path(root) / img_name
+        if not img_dir.is_dir():
+            return False
+        if p.get("image_layout", "flat") == "nested":
+            class_dirs = p.get("class_dirs", {})
+            return any((img_dir / d).is_dir() for d in class_dirs.values())
+        return True
 
     candidates = []
     if os.environ.get("DR_DATA_ROOT"):
@@ -111,12 +130,25 @@ def resolve_data_paths(cfg: dict[str, Any]) -> dict[str, str]:
     candidates += [p.get("local_root"), p.get("kaggle_root")]
 
     for root in candidates:
-        if root and (Path(root) / csv_name).is_file():
+        if is_valid_root(root):
             return {
                 "root": str(root),
                 "train_csv": str(Path(root) / csv_name),
                 "train_images": str(Path(root) / img_name),
             }
+
+    # Fallback: scan every attached Kaggle dataset for labels_csv, at ANY depth —
+    # classic UI mounts at /kaggle/input/<dataset>/..., the newer UI namespaces by
+    # owner at /kaggle/input/datasets/<owner>/<dataset>/... — recursive covers both.
+    # is_valid_root rejects false positives (e.g. a `train.csv` shipped inside
+    # outputs/splits/ of the uploaded code bundle has no matching image folder).
+    hits = [h for h in glob.glob(f"/kaggle/input/**/{csv_name}", recursive=True)
+           if is_valid_root(str(Path(h).parent))]
+    if hits:
+        root = str(Path(hits[0]).parent)
+        return {"root": root, "train_csv": str(Path(root) / csv_name),
+                "train_images": str(Path(root) / img_name)}
+
     # Nothing found — return the Kaggle guess so the error message is informative.
     root = p.get("kaggle_root", "")
     return {
@@ -148,13 +180,33 @@ def load_labels(cfg: dict[str, Any]) -> pd.DataFrame:
     df["stage_name"] = df["stage"].map(cfg["classes"])
     df["referable"] = (df["stage"] >= ref_thr).astype(int)
     df["ordinal"] = df["stage"].map(lambda k: _ordinal_target(k, len(cfg["classes"])))
+    df = attach_image_paths(df, cfg)
 
-    # Two possible on-disk layouts, selected by paths.image_layout:
-    #   "flat"   -> <img_dir>/<id_code>.png            (raw Kaggle competition)
-    #   "nested" -> <img_dir>/<class_dir>/<id_code>.png (many resized mirrors,
-    #               e.g. colored_images/{No_DR,Mild,Moderate,Severe,Proliferate_DR})
-    layout = cfg["paths"].get("image_layout", "flat")
-    if layout == "nested":
+    missing = [p for p in df["path"].head(50) if not Path(p).exists()]
+    if missing:
+        print(f"[load_labels] WARNING: {len(missing)}/50 sampled image files not "
+              f"found — check paths.image_subdir / image_layout in config.yaml. "
+              f"First missing: {missing[0]}")
+    return df
+
+
+def attach_image_paths(df: pd.DataFrame, cfg: dict[str, Any]) -> pd.DataFrame:
+    """(Re)compute the `path` column for whatever machine this is running on.
+
+    Split CSVs are portable across machines (they only need id_code + stage), but
+    a `path` baked in on one machine (e.g. your laptop) is wrong on another (e.g.
+    Kaggle) — so every loader calls this instead of trusting a stored path.
+
+    Two on-disk layouts, selected by paths.image_layout:
+        "flat"   -> <img_dir>/<id_code>.png            (raw Kaggle competition)
+        "nested" -> <img_dir>/<class_dir>/<id_code>.png (many resized mirrors,
+                    e.g. colored_images/{No_DR,Mild,Moderate,Severe,Proliferate_DR})
+    """
+    dp = resolve_data_paths(cfg)
+    img_dir = Path(dp["train_images"])
+    ext = cfg["paths"]["image_ext"]
+    df = df.copy()
+    if cfg["paths"].get("image_layout", "flat") == "nested":
         class_dirs = cfg["paths"]["class_dirs"]        # {stage_int: folder_name}
         df["path"] = df.apply(
             lambda r: str(img_dir / class_dirs[r["stage"]] / f"{r['id_code']}{ext}"),
@@ -162,12 +214,6 @@ def load_labels(cfg: dict[str, Any]) -> pd.DataFrame:
         )
     else:
         df["path"] = df["id_code"].map(lambda s: str(img_dir / f"{s}{ext}"))
-
-    missing = [p for p in df["path"].head(50) if not Path(p).exists()]
-    if missing:
-        print(f"[load_labels] WARNING: {len(missing)}/50 sampled image files not "
-              f"found — check paths.image_subdir / image_layout in config.yaml. "
-              f"First missing: {missing[0]}")
     return df
 
 
@@ -218,12 +264,15 @@ def make_splits(df: pd.DataFrame, cfg: dict[str, Any], save: bool = True) -> dic
 
 
 def load_splits(cfg: dict[str, Any]) -> dict[str, pd.DataFrame]:
-    """Re-load the split CSVs written by `make_splits`, restoring list columns."""
+    """Re-load the split CSVs written by `make_splits`, restoring list columns and
+    recomputing `path` for the current machine (see `attach_image_paths`) — this
+    is what makes the same split CSVs work unchanged on a laptop and on Kaggle."""
     out = Path(cfg["paths"]["splits_dir"])
     splits = {}
     for name in ("train", "val", "test"):
         part = pd.read_csv(out / f"{name}.csv")
         part["ordinal"] = part["ordinal"].map(lambda s: [int(x) for x in str(s).split()])
+        part = attach_image_paths(part, cfg)
         splits[name] = part
     return splits
 
