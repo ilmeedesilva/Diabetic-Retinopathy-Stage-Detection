@@ -103,3 +103,24 @@ train:
   tta: true                 # test-time augmentation at inference
   early_stopping_patience: 6
   monitor: val_qwk          # checkpoint on quadratic weighted kappa, not accuracy
+
+# M7 — image-quality gate (src/quality_gate.py). Reject ungradable photos before
+# the model sees them. thresholds are calibrated from the training-set metric
+# distribution in notebook 07 (just inside the 1st/99th percentile of gradable
+# images); the values below are heuristic fallbacks.
+quality_gate:
+  # Calibrated in notebook 07 from 500 gradable training images (1st / 99.5th
+  # percentile). Re-run 07 §7.1 and paste the printed values here if the source
+  # dataset changes.
+  thresholds:
+    sharpness:    [44.11, .inf]        # variance of Laplacian; below -> blurred
+    brightness:   [27.08, 105.73]      # mean grey level, 0-255
+    contrast:     [0.0602, .inf]       # RMS contrast (std of grey / 255)
+    fov_coverage: [0.4739, 0.989]      # fraction of frame that is retina (non-black)
+
+# M7 — RetinaBot retrieval-grounded assistant (src/chatbot.py).
+chatbot:
+  kb_path: kb/dr_knowledge.jsonl
+  encoder: sentence-transformers/all-MiniLM-L6-v2
+  min_score: 0.28          # cosine similarity floor; below this the bot declines to answer
+  top_k: 3
