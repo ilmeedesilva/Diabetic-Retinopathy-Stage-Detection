@@ -75,8 +75,8 @@ dr-triage/
 | M3 | Augmentation + class balancing (Albumentations, 3 strategies, MixUp/CutMix) | done |
 | M4 | Model (EfficientNetV2-S + CBAM + stage/ordinal/referable heads) + losses | done |
 | M5 | Two-phase training + 3-fold stratified CV | done (smoke-tested; full GPU run pending) |
-| M6 | Evaluation (curves, P/R/F1, QWK, ROC/PR, calibration, Grad-CAM) | — |
-| M7 | Quality gate + RetinaBot | — |
+| M6 | Evaluation (curves, P/R/F1, QWK, ROC/PR, calibration, MC-dropout, Grad-CAM++, error analysis) | built (runs against M5 checkpoints) |
+| M7 | Quality gate + RetinaBot | next |
 | M8 | Gradio app + report + video | — |
 
 ## Running it

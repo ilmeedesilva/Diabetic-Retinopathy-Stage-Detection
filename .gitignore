@@ -25,3 +25,6 @@ outputs/checkpoints/
 # Keep split CSVs and metrics (small, reproducibility record)
 !outputs/splits/*.csv
 !outputs/metrics/*.json
+
+# Report draft — kept out of the code repo (submitted separately via Turnitin)
+report/
