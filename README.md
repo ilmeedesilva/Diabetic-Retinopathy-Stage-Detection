@@ -77,7 +77,7 @@ dr-triage/
 | M5 | Two-phase training + 3-fold stratified CV | done (smoke-tested; full GPU run pending) |
 | M6 | Evaluation (curves, P/R/F1, QWK, ROC/PR, calibration, MC-dropout, Grad-CAM++, error analysis) | done — test QWK 0.854, referable AUC 0.979 |
 | M7 | Image-quality gate + RetinaBot (grounded RAG chatbot) | done |
-| M8 | Gradio app + report + video | — |
+| M8 | Gradio app (`app/app.py`) + report draft | app done; screenshots + video + PDF export are manual |
 
 ## Running it
 

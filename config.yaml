@@ -124,3 +124,9 @@ chatbot:
   encoder: sentence-transformers/all-MiniLM-L6-v2
   min_score: 0.28          # cosine similarity floor; below this the bot declines to answer
   top_k: 3
+
+# M8 — inference / prototype app (app/app.py).
+inference:
+  temperature: 1.05        # calibration temperature fitted on the validation set (M6, §6.7)
+  referable_threshold: 0.4 # operating point for the refer/re-screen decision
+                           # (M6 §6.6: sensitivity ~0.97 for referable disease)
