@@ -62,6 +62,12 @@ PRE = make_preprocessor(CFG)
 EVAL_TF = build_eval_aug(S, MEAN, STD)
 try:
     MODELS = E.load_fold_models(CFG, DEV)
+    # On a memory-constrained free host, cap the ensemble size (e.g. Render's free
+    # tier is 512 MB). Set DR_TRIAGE_MAX_MODELS=1 in the host's env vars to load
+    # only fold0 instead of the full 3-model ensemble; unset/0 = use all folds.
+    _cap = os.environ.get("DR_TRIAGE_MAX_MODELS")
+    if _cap and int(_cap) > 0:
+        MODELS = MODELS[: int(_cap)]
 except FileNotFoundError:
     MODELS = []
     print("[app] WARNING: no checkpoints in outputs/checkpoints/ — grading disabled")
@@ -220,4 +226,9 @@ with gr.Blocks(title="DR-Triage") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch(share=bool(os.environ.get("GRADIO_SHARE")), theme=gr.themes.Soft())
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT", 7860)),  # Render/most PaaS hosts assign PORT
+        share=bool(os.environ.get("GRADIO_SHARE")),
+        theme=gr.themes.Soft(),
+    )

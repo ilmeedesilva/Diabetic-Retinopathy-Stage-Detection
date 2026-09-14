@@ -1,0 +1,15 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+# Deploy: Render dashboard -> New + -> Blueprint -> connect this repo -> Apply.
+# Render reads this file automatically and configures the service for you.
+services:
+  - type: web
+    name: dr-triage
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app/app.py"
+    envVars:
+      - key: DR_TRIAGE_MAX_MODELS
+        value: "1"          # free tier = 512MB RAM; 1 fold instead of the 3-model ensemble
+      - key: PYTHON_VERSION
+        value: "3.12.6"
