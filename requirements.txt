@@ -26,5 +26,7 @@ netcal>=1.3.5             # calibration metrics + temperature scaling
 sentence-transformers>=2.7
 faiss-cpu>=1.8
 
-# Demo app (M8)
+# Demo app (M8) — two UIs, same backend: Gradio (local/Render) and Streamlit
+# (Streamlit Community Cloud, for free hosting with no card requirement)
 gradio>=4.20
+streamlit>=1.35
