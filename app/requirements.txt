@@ -1,0 +1,24 @@
+# Streamlit Cloud looks for requirements.txt next to the app entrypoint first
+# (app/streamlit_app.py), so this trimmed, deployment-only list takes priority
+# over the project-wide requirements.txt at the repo root. It drops everything
+# the deployed app doesn't actually import (matplotlib, seaborn, tqdm,
+# torchvision, torchmetrics, netcal, gradio — notebook/Gradio-app only), and
+# pins torch to the CPU-only wheel index so the build doesn't try to pull a
+# multi-gigabyte CUDA build on a free CPU host.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+numpy>=1.26,<2.1
+pandas>=2.1
+pyyaml>=6.0
+opencv-python-headless>=4.9
+
+torch>=2.2
+timm>=1.0.7
+albumentations>=1.4.0
+grad-cam>=1.5.0
+scikit-learn>=1.4
+
+sentence-transformers>=2.7
+faiss-cpu>=1.8
+
+streamlit>=1.35
